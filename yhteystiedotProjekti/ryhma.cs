@@ -11,7 +11,7 @@ namespace yhteystiedotProjekti
     class ryhma
     {
         MY_DB mydb = new MY_DB();
-
+        //on
         // funktio lisätä kirjautunut käyttäjä ryhmään
         public bool InsertGroup(string nimi, int kayttajaid)
         {
