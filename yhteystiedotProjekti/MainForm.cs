@@ -272,5 +272,15 @@ namespace yhteystiedotProjekti
             Kontaktien_koko_lista_Form kontaktiListaF = new Kontaktien_koko_lista_Form();
             kontaktiListaF.Show(this);
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }       
 }

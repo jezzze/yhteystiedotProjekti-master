@@ -217,5 +217,10 @@ namespace yhteystiedotProjekti
 
 
         }
+
+        private void tbKayttajanimi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

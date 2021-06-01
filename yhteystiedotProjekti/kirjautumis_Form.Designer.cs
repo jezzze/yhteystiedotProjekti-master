@@ -348,6 +348,7 @@ namespace yhteystiedotProjekti
             this.tbKayttajanimi.Name = "tbKayttajanimi";
             this.tbKayttajanimi.Size = new System.Drawing.Size(134, 26);
             this.tbKayttajanimi.TabIndex = 3;
+            this.tbKayttajanimi.TextChanged += new System.EventHandler(this.tbKayttajanimi_TextChanged);
             // 
             // label3
             // 

@@ -185,6 +185,7 @@ namespace yhteystiedotProjekti
             this.label6.Size = new System.Drawing.Size(143, 39);
             this.label6.TabIndex = 8;
             this.label6.Text = "Kontakti";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel5
             // 
@@ -224,6 +225,7 @@ namespace yhteystiedotProjekti
             this.label5.Size = new System.Drawing.Size(108, 20);
             this.label5.TabIndex = 4;
             this.label5.Text = "Valitse ryhmä:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // buttonRemoveGroup
             // 

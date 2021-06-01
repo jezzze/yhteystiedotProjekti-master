@@ -127,5 +127,10 @@ namespace yhteystiedotProjekti
                 pbContactPic.Image = Image.FromFile(opf.FileName);
             }
         }
+
+        private void textBoxContactID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

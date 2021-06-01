@@ -162,6 +162,7 @@ namespace yhteystiedotProjekti
             this.textBoxContactID.ReadOnly = true;
             this.textBoxContactID.Size = new System.Drawing.Size(225, 26);
             this.textBoxContactID.TabIndex = 28;
+            this.textBoxContactID.TextChanged += new System.EventHandler(this.textBoxContactID_TextChanged);
             // 
             // label8
             // 
