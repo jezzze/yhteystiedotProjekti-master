@@ -23,7 +23,7 @@ namespace yhteystiedotProjekti
         {
             //lisään tässä kaksi kuvaa panel3een ja panel4jään
             panel3.BackgroundImage = Image.FromFile("../../kuvat/minimoi.png");
-            panel4.BackgroundImage = Image.FromFile("../../kuvat/minimoi.png"); // korjaa myöhemmin sulje.png
+            panel4.BackgroundImage = Image.FromFile("../../kuvat/sulje.png"); // Korjattu
         }
 
         //registeröinti nappi
@@ -192,7 +192,7 @@ namespace yhteystiedotProjekti
 
             adapter.SelectCommand = command;
 
-            adapter.Fill(table);
+            adapter.Fill(table); 
 
             if(tarkistafields("login")) // Tarkistan että onko tyhjiä kohtia
             {

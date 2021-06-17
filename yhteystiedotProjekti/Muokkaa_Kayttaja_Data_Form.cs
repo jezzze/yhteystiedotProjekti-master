@@ -99,5 +99,10 @@ namespace yhteystiedotProjekti
             }
 
         }
+
+        private void tbEtunimi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -25,7 +25,7 @@ namespace yhteystiedotProjekti
         private void MainForm_Load(object sender, EventArgs e)
         {// nämä on sulkemis ja minimointi kuvat
             panel3.BackgroundImage = Image.FromFile("../../kuvat/minimoi.png");
-            panel4.BackgroundImage = Image.FromFile("../../kuvat/minimoi.png"); //korjaa!!
+            panel4.BackgroundImage = Image.FromFile("../../kuvat/sulje.png"); //Korjattu
 
             getkuvajakayttajanimi();
 

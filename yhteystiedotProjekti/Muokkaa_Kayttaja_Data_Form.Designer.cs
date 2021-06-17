@@ -200,6 +200,7 @@ namespace yhteystiedotProjekti
             this.tbEtunimi.Name = "tbEtunimi";
             this.tbEtunimi.Size = new System.Drawing.Size(354, 26);
             this.tbEtunimi.TabIndex = 7;
+            this.tbEtunimi.TextChanged += new System.EventHandler(this.tbEtunimi_TextChanged);
             // 
             // label1
             // 

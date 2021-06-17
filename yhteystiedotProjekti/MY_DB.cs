@@ -12,7 +12,7 @@ namespace yhteystiedotProjekti
     class MY_DB
     {
         //Yhteys
-        MySqlConnection con = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=csharp_yhteystiedot_db");
+        MySqlConnection con = new MySqlConnection("datasource=localhost;port=3307;username=root;password=;database=csharp_yhteystiedot_db");
 
         //palauta yhteys
         public MySqlConnection getConnection

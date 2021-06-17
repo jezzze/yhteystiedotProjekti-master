@@ -22,6 +22,8 @@ namespace yhteystiedotProjekti
         private void lisaa_Kontakti_Form_Load(object sender, EventArgs e)
         {
             panel3.BackgroundImage = Image.FromFile("../../kuvat/minimoi.png");
+            panel4.BackgroundImage = Image.FromFile("../../kuvat/sulje.png");
+
 
             ryhma ryhma = new ryhma();
             comboBoxGroup.DataSource = ryhma.getGroups(Globals.GlobalkayttajaId);
