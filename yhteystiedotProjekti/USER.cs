@@ -25,7 +25,7 @@ namespace yhteystiedotProjekti
             }
             else if (operation == "muokkaa")
             {//tarkistan että onko käyttäjä nimi olemassa 
-                query = "SELECT* FROM `kayttaja` WHERE `kayttajanimi`= @un And id <> @uid";
+                query = "SELECT* FROM `kayttaja` WHERE `kayttajanimi` =@un And id <> @uid";
             }
 
             MySqlCommand command = new MySqlCommand(query, db.getConnection);

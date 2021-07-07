@@ -326,7 +326,7 @@ namespace yhteystiedotProjekti
             this.buttonLisaaRyhma.Name = "buttonLisaaRyhma";
             this.buttonLisaaRyhma.Size = new System.Drawing.Size(365, 35);
             this.buttonLisaaRyhma.TabIndex = 3;
-            this.buttonLisaaRyhma.Text = "Lisaa";
+            this.buttonLisaaRyhma.Text = "Lisää";
             this.buttonLisaaRyhma.UseVisualStyleBackColor = false;
             this.buttonLisaaRyhma.Click += new System.EventHandler(this.buttonLisaaRyhma_Click);
             // 
